@@ -1,3 +1,31 @@
-p{
-    
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+header h1{
+    font-size: 22px;
+}
+
+header{
+    background-color: #8fb900;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px;
+    border: 2px solid #fff;
+}
+
+header div{
+    width: 1160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
 }
