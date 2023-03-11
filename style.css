@@ -22,6 +22,11 @@ header a{
     border: 2px solid #fff;
 }
 
+header a:hover{
+    color: #8fb900;
+    background-color: #fff;
+}
+
 header div{
     width: 1160px;
     display: flex;
