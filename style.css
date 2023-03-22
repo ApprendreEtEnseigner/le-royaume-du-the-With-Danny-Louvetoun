@@ -4,6 +4,15 @@
     font-family: 'Poppins', sans-serif;
 }
 
+p{
+    font-size: 16px;
+}
+
+h3{
+    font-size: 18px;
+    color: #b90032;
+}
+
 section{
     width: 1160px;
     margin: 0 auto;
@@ -62,4 +71,9 @@ header div{
     font-weight: bold;
     color: #fff;
     margin: 0 17px;
+}
+
+.item{
+    width: 280px;
+    border: 1px solid #b90032;
 }
