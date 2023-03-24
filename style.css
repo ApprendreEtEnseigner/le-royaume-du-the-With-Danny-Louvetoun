@@ -6,6 +6,7 @@
 
 p{
     font-size: 16px;
+
 }
 
 h3{
@@ -13,9 +14,18 @@ h3{
     color: #b90032;
 }
 
+.btn-red{
+    border: none;
+    background-color: #b90032;
+    color: #fff;
+    width: 236px;
+    text-align: center;
+    border: none !important;
+}
+
 section{
     width: 1160px;
-    margin: 0 auto;
+    margin: 80px auto 0 80px;
 }
 
 header h1{
@@ -28,13 +38,14 @@ header{
     justify-content: center;
     color: #fff;
 }
-header a{
+.btn{
     color: #fff;
-    text-decoration: none;
+    text-decoration: none;  
     font-size: 18px;
     font-weight: bold;
     padding: 12px;
     border: 2px solid #fff;
+    display: block;
 }
 
 header a:hover{
@@ -52,7 +63,7 @@ header div{
 
 .main-image{
     position: relative;
-    margin-top: 80px ;
+    
 }
 
 .main-image div{
@@ -76,4 +87,11 @@ header div{
 .item{
     width: 280px;
     border: 1px solid #b90032;
+    margin-top: 25px;
+}
+
+
+
+.item-description{
+    padding: 10px;
 }
