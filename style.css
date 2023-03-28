@@ -95,3 +95,18 @@ header div{
 .item-description{
     padding: 10px;
 }
+
+.container-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* business */
+.business{
+    display: flex;
+    justify-content: space-between;
+}
+
+.description-business{
+    width: 570px;
+}
