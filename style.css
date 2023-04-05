@@ -91,7 +91,7 @@ header a:hover{
 .items{
     border: 1px solid black;
 }
-
+/* sous item */
 .item{
     width: 280px;
     border: 1px solid #b90032;
