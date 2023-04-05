@@ -1,3 +1,4 @@
+/* GENERAL */
 *{
     padding: 0px;
     margin: 0px;
@@ -9,9 +10,22 @@ p{
 
 }
 
+h1{
+    font-size: 22px;
+}
+
 h3{
     font-size: 18px;
     color: #b90032;
+}
+
+.container{
+    width: 1160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+    margin: 0 auto;
 }
 
 .btn-red{
@@ -28,10 +42,7 @@ section{
     margin: 80px auto 0 80px;
 }
 
-header h1{
-    font-size: 22px;
-}
-
+/* HEADER */
 header{
     background-color: #8fb900;
     color: #fff;
@@ -51,15 +62,8 @@ header a:hover{
     background-color: #fff;
 }
 
-.container{
-    width: 1160px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 0px;
-    margin: 0 auto;
-}
 
+/* SECTION MAIN IMAGE */
 .main-image{
     position: relative;
     
@@ -83,6 +87,7 @@ header a:hover{
     margin: 0 17px;
 }
 
+/* ITEMS */
 .items{
     border: 1px solid black;
 }
@@ -117,4 +122,18 @@ header a:hover{
 /* FOOTER */
 footer{
     background-color: #8fb900;
+    color: #fff;
+    margin-top: 80px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+footer p{
+    font-size: 22px;
+    font-weight: 600;
 }
